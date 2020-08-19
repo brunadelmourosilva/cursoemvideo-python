@@ -1,5 +1,6 @@
 # Crie um programa que faça o computador jogar Jokenpô com você
 #empate, derrota, vitoria
+
 from random import randint
 from time import sleep
 print('='*20)

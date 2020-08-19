@@ -5,7 +5,6 @@
 #B) quantos homens foram cadastrados.
 #C) quantas mulheres tem menos de 20 anos.
 
-
 cont = contIdade = contHomens = contMulheres = 0
 while True:
     cont += 1
@@ -17,7 +16,7 @@ while True:
     # pessoas com mais de 18 anos
     if i >= 18: contIdade += 1
 
-    s = ' ' # a cada loop, a variavel sexo passa a conter esse valor suposto para entrar na validação
+    s = ' ' # a cada loop, a variável 'sexo' passa a conter esse valor suposto para entrar na validação
     #validação
     while s not in 'MF':
         s = str(input('Sexo: [M/F]')).upper().strip()[0]
